@@ -2,10 +2,10 @@
   <DashboardCard title="Success Metrics">
     <div class="space-y-4">
       <div class="p-4 bg-gray-50 rounded-lg">
-        <h3 class="font-semibold text-lg">Application Volume</h3>
+        <h3 class="font-semibold text-lg">Customer Acquisition</h3>
         <div class="mt-2">
-          <p><span class="text-gray-500">Target:</span> {{ metrics.application_volume.target }}</p>
-          <p><span class="text-gray-500">Timeline:</span> {{ metrics.application_volume.timeline }}</p>
+          <p><span class="text-gray-500">Target:</span> {{ metrics.customer_acquisition.target }}</p>
+          <p><span class="text-gray-500">Timeline:</span> {{ metrics.customer_acquisition.timeline }}</p>
         </div>
       </div>
       <div class="p-4 bg-gray-50 rounded-lg">
